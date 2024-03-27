@@ -2,13 +2,18 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { profile, linkedin, github } from "../assets";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-      <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      >
+      <div className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+        <div className="hidden mt-5 md:flex flex-col items-center">
+          <div className="w-28 h-28 lg:w-48 lg:h-48 rounded-full overflow-hidden ">
+            <img className="w-full h-full object-cover" src={profile} alt="Profile" />
+          </div>
+        </div>
+
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
@@ -19,12 +24,12 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Akash</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Full Stack Software Engineer <br className='sm:block hidden' />
+            and Cloud Developer
           </p>
         </div>
       </div>
-
+      
       <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

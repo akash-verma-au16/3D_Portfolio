@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [yarn](https://www.yarnpkg.com/) (Yarn Package Manager)
 
 **Cloning the Repository**
 
@@ -32,7 +32,7 @@ cd 3D_Portfolio
 Install the project dependencies using npm:
 
 ```bash
-npm install
+yarn add all
 ```
 
 **Set Up Environment Variables**
@@ -50,7 +50,7 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 **Running the Project**
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.

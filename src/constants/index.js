@@ -5,6 +5,8 @@ import {
   web,
   javascript,
   typescript,
+  postgres,
+  aws,
   html,
   css,
   reactjs,
@@ -22,7 +24,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -61,14 +62,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -85,6 +78,14 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -97,20 +98,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
 ];
 
