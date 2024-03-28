@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { profile, linkedin, github } from "../assets";
+import { profile } from "../assets";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
-      <div className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+      <div className={`absolute inset-0 top-[100px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className="hidden mt-5 md:flex flex-col items-center">
           <div className="w-28 h-28 lg:w-48 lg:h-48 rounded-full overflow-hidden ">
             <img className="w-full h-full object-cover" src={profile} alt="Profile" />
