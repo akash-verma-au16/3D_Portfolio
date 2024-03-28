@@ -24,10 +24,21 @@ import typescript from "./tech/typescript.png";
 import postgres from "./tech/postgres.png";
 import aws from "./tech/aws.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import s3 from "./tech/s3.png";
+import ec2 from "./tech/ec2.png";
+import lambda from "./tech/lambda.png";
+import dynamodb from "./tech/dynamodb.png";
+import cloud from "./tech/cloud.png";
+import api from "./tech/api.png";
+import amplify from "./tech/amplify.png";
+import cognito from "./tech/cognito.png";
+
+
+import attainu from "./company/attainu.png";
+import careerninja from "./company/careerninja.png";
+import peakmind from "./company/peakmind.png";
+import maersk from "./company/maersk.png";
+import learntube from "./company/learntube.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,10 +67,19 @@ export {
   typescript,
   postgres,
   aws,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  s3,
+  ec2,
+  lambda,
+  dynamodb,
+  cloud,
+  api,
+  amplify,
+  cognito,
+  attainu,
+  careerninja,
+  peakmind,
+  maersk,
+  learntube,
   carrent,
   jobit,
   tripguide,
