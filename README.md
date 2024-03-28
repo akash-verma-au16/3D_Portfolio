@@ -1,4 +1,4 @@
-# [Portfolio]((https://akash-verma-au16.github.io/3D_Portfolio/)): GitHub Pages using GitHub Actions
+# [Portfolio](https://akash-verma-au16.github.io/3D_Portfolio/): Hosted on GitHub Pages using GitHub Actions
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
