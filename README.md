@@ -22,7 +22,8 @@ Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [yarn](https://www.yarnpkg.com/) (Yarn Package Manager)
+- [Npm](https://npmjs.org) (NPM Package Manager)
+- [Yarn](https://www.yarnpkg.com/) (Yarn Package Manager)
 
 **Cloning the Repository**
 
@@ -37,6 +38,11 @@ Install the project dependencies using npm:
 
 ```bash
 yarn add all
+```
+or 
+
+```bash
+npm install --legacy-peer-deps
 ```
 
 **Set Up Environment Variables**
@@ -56,5 +62,10 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 ```bash
 yarn dev
 ```
+or 
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173/3D_Portfolio](http://localhost:5173/3D_Portfolio) in your browser to view the project.
