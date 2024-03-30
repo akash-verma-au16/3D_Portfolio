@@ -40,6 +40,9 @@ import peakmind from "./company/peakmind.png";
 import maersk from "./company/maersk.png";
 import learntube from "./company/learntube.png";
 
+import conestoga from "./education/conestoga.jpeg";
+import bits from "./education/bits.jpeg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -85,4 +88,6 @@ export {
   tripguide,
   profile,
   linkedin,
+  conestoga,
+  bits,
 };

@@ -33,6 +33,8 @@ import {
   carrent,
   jobit,
   tripguide,
+  conestoga,
+  bits,
 } from "../assets";
 
 export const navLinks = [
@@ -53,6 +55,10 @@ export const navLinks = [
     title: "Tech",
   },
   {
+    id: "certificates",
+    title: "Certificates",
+  },
+  {
     id: "projects",
     title: "Projects",
   },
@@ -64,6 +70,63 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+];
+
+const certificates = [
+  {
+    credential_id: "3729587",
+    title: "Deploy and Manage Cloud Environments with Google Cloud",
+    org: "Google Cloud Skills Boost",
+    issue_date: "May 2023",
+    url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3729587?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    icon: aws,
+  },  
+  {
+    credential_id: "3679201",
+    title: "Perform Foundational Infrastructure Tasks in Google Cloud",
+    org: "Google Cloud Skills Boost",
+    issue_date: "May 2023",
+    url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3679201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    icon: aws,
+  },
+  {
+    credential_id: "3676231",
+    title: "Google Cloud Essentials",
+    org: "Google Cloud Skills Boost",
+    issue_date: "May 2023",
+    url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3676231?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    icon: aws,
+  }
+];
+
+const education = [
+  {
+    logo: conestoga,
+    college: "Conestoga College",
+    degree: "Post Graduate Certificate",
+    major: "Information Technology Network Security",
+    duration: "Jan 2024 - Aug 2024",
+    location: "Waterloo, Ontario, Canada",
+    technologies: [],
+  },  
+  {
+    logo: conestoga,
+    college: "Conestoga College",
+    degree: "Post Graduate Certificate",
+    major: "Virtualization and Cloud Computing",
+    duration: "Jan 2023 - Aug 2023",
+    location: "Waterloo, Ontario, Canada",
+    technologies: [],
+  },  
+  {
+    logo: bits,
+    college: "Birla Institute of Technology, Pilani",
+    degree: "Bachelor of Technology",
+    major: "Marine Engineering",
+    duration: "Aug 2015 - Aug 2019",
+    location: "Pune, Maharashtra",
+    technologies: [],
+  }  
 ];
 
 const services = [
@@ -302,4 +365,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, education, certificates, experiences, testimonials, projects };
