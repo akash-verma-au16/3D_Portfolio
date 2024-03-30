@@ -35,6 +35,9 @@ import {
   tripguide,
   conestoga,
   bits,
+  c1,
+  c2,
+  c3,
 } from "../assets";
 
 export const navLinks = [
@@ -79,7 +82,7 @@ const certificates = [
     org: "Google Cloud Skills Boost",
     issue_date: "May 2023",
     url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3729587?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
-    icon: aws,
+    icon: c3,
   },  
   {
     credential_id: "3679201",
@@ -87,7 +90,7 @@ const certificates = [
     org: "Google Cloud Skills Boost",
     issue_date: "May 2023",
     url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3679201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
-    icon: aws,
+    icon: c2,
   },
   {
     credential_id: "3676231",
@@ -95,7 +98,7 @@ const certificates = [
     org: "Google Cloud Skills Boost",
     issue_date: "May 2023",
     url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3676231?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
-    icon: aws,
+    icon: c1,
   }
 ];
 

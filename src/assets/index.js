@@ -43,6 +43,10 @@ import learntube from "./company/learntube.png";
 import conestoga from "./education/conestoga.jpeg";
 import bits from "./education/bits.jpeg";
 
+import c1 from "./certificates/c1.png";
+import c2 from "./certificates/c2.png";
+import c3 from "./certificates/c3.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -90,4 +94,7 @@ export {
   linkedin,
   conestoga,
   bits,
+  c1,
+  c2,
+  c3,
 };
