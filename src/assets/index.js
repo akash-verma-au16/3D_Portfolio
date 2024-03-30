@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backend.gif";
+import cloudCompute from "./cloudCompute.gif";
+import native from "./native.gif";
+import frontend from "./frontend.gif";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
@@ -47,9 +47,9 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
-  mobile,
-  web,
+  cloudCompute,
+  native,
+  frontend,
   github,
   menu,
   close,

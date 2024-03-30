@@ -1,8 +1,8 @@
 import {
-  mobile,
+  native,
   backend,
-  creator,
-  web,
+  cloudCompute,
+  frontend,
   javascript,
   typescript,
   postgres,
@@ -52,20 +52,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Front-end Developer",
+    icon: frontend,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Back-end Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "React Native Developer",
+    icon: native,
+  },
+  {
+    title: "Cloud Developer",
+    icon: cloudCompute,
   },
 ];
 

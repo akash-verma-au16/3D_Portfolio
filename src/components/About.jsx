@@ -8,10 +8,10 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='shadow-card'
     >
       <div
         options={{
@@ -19,18 +19,18 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='w-[150px] h-[150px] md:w-[250px] md:h-[250px] green-pink-gradient p-[1px] rounded-[20px] overflow-hidden'
       >
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-[150px] h-[150px] md:w-[250px] md:h-[250px] bg-white object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
       </div>
+      <h3 className='text-white text-[10px] md:text-[20px] font-bold text-center mt-2'>
+        {title}
+      </h3>
     </motion.div>
   </Tilt>
 );
@@ -54,7 +54,7 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-10 md:mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
