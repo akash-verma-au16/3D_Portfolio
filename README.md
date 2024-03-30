@@ -1,5 +1,5 @@
 ## ☁️ Hosted on GitHub Pages using GitHub Actions
--  [Portfolio Link](https://akash-verma-au16.github.io/3D_Portfolio/)
+-  GitHub CI/CD with GitHub Actions: [Portfolio Link](https://akash-verma-au16.github.io/3D_Portfolio/)
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -7,6 +7,7 @@
 - Three.js
 - React Three Fiber
 - React Three Drei
+- Framer-Motion
 - Email JS
 - Vite
 - Tailwind CSS
