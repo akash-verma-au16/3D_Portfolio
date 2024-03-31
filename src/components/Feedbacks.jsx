@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { linkedin } from "../assets";
 
 const FeedbackCard = ({
   index,
@@ -13,14 +14,29 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  linkedIn,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full relative cursor-pointer'
+    onClick={() => window.open(linkedIn, "_blank")}
   >
     <p className='text-white font-black text-[48px]'>"</p>
 
-    <div className='mt-1'>
+    <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+      <div
+        onClick={() => window.open(linkedIn, "_blank")}
+        className='w-16 h-16 rounded-full flex justify-center items-center cursor-pointer'
+      >
+        <img
+          src={linkedin}
+          alt='source code'
+          className='w-1/2 h-1/2 object-contain'
+        />
+      </div>
+    </div>
+
+    <div className='mt-1 flex flex-col'>
       <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
@@ -29,14 +45,14 @@ const FeedbackCard = ({
             <span className='blue-text-gradient'>@</span> {name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
+            {designation} at {company}
           </p>
         </div>
 
         <img
           src={image}
           alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
+          className='w-16 h-16 rounded-full object-cover'
         />
       </div>
     </div>

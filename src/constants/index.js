@@ -58,12 +58,12 @@ export const navLinks = [
     title: "Tech",
   },
   {
-    id: "certificates",
-    title: "Certificates",
-  },
-  {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "certificates",
+    title: "Certificates",
   },
   {
     id: "testimonials",
@@ -82,7 +82,7 @@ const certificates = [
     org: "Google Cloud Skills Boost",
     issue_date: "May 2023",
     url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3729587?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
-    icon: c3,
+    icon: c1,
   },  
   {
     credential_id: "3679201",
@@ -98,7 +98,7 @@ const certificates = [
     org: "Google Cloud Skills Boost",
     issue_date: "May 2023",
     url: "https://www.cloudskillsboost.google/public_profiles/92814e4f-a785-4e23-87e4-0a728cb08a77/badges/3676231?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
-    icon: c1,
+    icon: c3,
   }
 ];
 
@@ -109,7 +109,7 @@ const education = [
     degree: "Post Graduate Certificate",
     major: "Information Technology Network Security",
     duration: "Jan 2024 - Aug 2024",
-    location: "Waterloo, Ontario, Canada",
+    location: "Waterloo, Ontario",
     technologies: [],
   },  
   {
@@ -118,7 +118,7 @@ const education = [
     degree: "Post Graduate Certificate",
     major: "Virtualization and Cloud Computing",
     duration: "Jan 2023 - Aug 2023",
-    location: "Waterloo, Ontario, Canada",
+    location: "Waterloo, Ontario",
     technologies: [],
   },  
   {
@@ -278,27 +278,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Akash possesses both expertise and dedication and his excellent problem-solving skills make him an invaluable asset to any team.",
+    name: "Sabrina Gujral",
+    designation: "SDE II",
+    company: "Apptio Cloudability",
+    linkedIn: "https://www.linkedin.com/in/sabrina2616/",
+    image: "https://media.licdn.com/dms/image/D5603AQG901hO2v8PhQ/profile-displayphoto-shrink_400_400/0/1701159627222?e=1717632000&v=beta&t=UpJSjeMrWr67x1bUmKNmJBljjWcxe_mCoy5rrW_aR0I",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Akash demonstrated exceptional expertise and a remarkable ability to adapt to challenges, makes invaluable contributions to the team.",
+    name: "Parth Sharma",
+    designation: "Co-Founder",
+    company: "Peakmind",
+    linkedIn: "https://www.linkedin.com/in/parth-s-a27ba223/",
+    image: "https://media.licdn.com/dms/image/C5603AQHmynV--O1kBw/profile-displayphoto-shrink_400_400/0/1643379845931?e=1717632000&v=beta&t=84r7J7m5_IBvL4RK5D0v8rPrCXB1X5BXwawVGXCiDxk",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working alongside Akash has been a blast. His unwavering dedication and exceptional skillset continuously inspired and motivated me.",
+    name: "Saqib Saud",
+    designation: "Software Engineer",
+    company: "CareerNinja",
+    linkedIn: "https://www.linkedin.com/in/saqib-saud/",
+    image: "https://media.licdn.com/dms/image/C5103AQFXqndre3GYbQ/profile-displayphoto-shrink_400_400/0/1552453347209?e=1717632000&v=beta&t=Sf9LwrZGuGNDv5PcXz9FKPUkKK1CEbh7zcR42PXKKBo",
   },
 ];
 
