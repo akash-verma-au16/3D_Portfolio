@@ -12,7 +12,7 @@ const CertificateCard = ({index, point}) => {
   return (
     <motion.div 
       variants={fadeIn("up", "spring", index * 0.5, 0.75)} 
-      className='bg-tertiary rounded-2xl flex'
+      className='bg-tertiary rounded-2xl'
     >
           <img
             src={point.icon}
@@ -32,11 +32,13 @@ const Certificates = () => {
         <h2 className={`${styles.sectionHeadText}`}>Certificates</h2>
       </motion.div>
 
-      <div className='mt-10 flex flex-wrap gap-7'>
+    <div className="flex flex-col items-center sm:items-start mx-auto">
+      <div className='mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-7'>
         {certificates.map((el, i) => (
           <CertificateCard key={`certificate-${i}`} index={i} point={el} />
         ))}
       </div>
+    </div>
     </>
   );
 };

@@ -246,7 +246,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer Trainee",
+    title: "Full Stack Developer (Intern)",
     company_name: "AttainU",
     company_link: "https://www.linkedin.com/company/attainu/",
     icon: attainu,

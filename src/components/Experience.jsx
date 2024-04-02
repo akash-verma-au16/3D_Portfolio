@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
-        {experience?.stack?.length > 0 && <ul className='mt-2 flex flex-wrap list-disc gap-2'>
+        {experience?.stack?.length > 0 && <ul className='mt-2 flex flex-wrap list-disc gap-1 md:gap-2'>
           {experience.stack.map((el, i) => (
             <img
               key={`stack-${i}`}
@@ -94,7 +94,7 @@ const Experience = () => {
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='mt-10 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
