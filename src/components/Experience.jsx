@@ -48,7 +48,7 @@ const ExperienceCard = ({ experience }) => {
           {experience.stack.map((el, i) => (
             <img
               key={`stack-${i}`}
-              className='h-6 w-6'
+              className='h-4 w-4 md:h-6 md:w-6'
               src={el}
             />
           ))}
@@ -59,7 +59,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='text-white-100 text-[10px] md:text-[14px] pl-1 tracking-wider'
           >
             {point}
             {experience?.playstore && index === 0 && <span 
@@ -70,7 +70,7 @@ const ExperienceCard = ({ experience }) => {
                   Checkout the app on Playstore
                 </span>
                 <img src={experience.app} className="h-4 w-4 rounded-md"/>
-                <span className='text-[#915EFF] text-xs font-semibold'>
+                <span className='text-[#915EFF] text-[10px] md:text-xs font-semibold'>
                   LearnTube
                 </span>
               </span>
@@ -86,10 +86,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p className={`${styles.sectionSubText}`}>
           What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={`${styles.sectionHeadText}`}>
           Work Experience
         </h2>
       </motion.div>
