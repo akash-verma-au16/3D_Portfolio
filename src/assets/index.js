@@ -7,6 +7,7 @@ import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.svg";
 import profile from "./profile.jpeg";
 
 import css from "./tech/css.png";
@@ -47,9 +48,8 @@ import c1 from "./certificates/c1.png";
 import c2 from "./certificates/c2.png";
 import c3 from "./certificates/c3.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pixelBlend from "./projects/pixelBlend.png";
+import portfolio from "./projects/portfolio.png";
 
 export {
   logo,
@@ -60,6 +60,7 @@ export {
   github,
   menu,
   close,
+  link,
   css,
   docker,
   figma,
@@ -87,9 +88,8 @@ export {
   peakmind,
   maersk,
   learntube,
-  carrent,
-  jobit,
-  tripguide,
+  pixelBlend,
+  portfolio,
   profile,
   linkedin,
   conestoga,

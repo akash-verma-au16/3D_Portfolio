@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployed_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -26,11 +27,11 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-full'>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-contain rounded-2xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -49,7 +50,25 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          {description.map(el => (
+            <p className='mt-2 text-secondary text-[12px]'>- {el}</p>
+          ))}
+          <div className="ml-2 flex gap-4 text-[12px] sm:text-[14px] text-blue-400 font-semibold underline">
+            <p 
+              className='mt-2 cursor-pointer flex gap-1 items-center hover:brightness-50' 
+              onClick={() => window.open(deployed_link, "_blank")}
+            >
+              Deployed Link
+              <img src={link} alt="link" className="w-3 h-3"/>
+            </p>
+            <p 
+              className='mt-2 cursor-pointer flex gap-1 items-center hover:brightness-50' 
+              onClick={() => window.open(source_code_link, "_blank")}
+            >
+              Source Code
+              <img src={link} alt="link" className="w-3 h-3"/>
+            </p>
+          </div>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

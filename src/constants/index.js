@@ -30,9 +30,8 @@ import {
   peakmind,
   maersk,
   learntube,
-  carrent,
-  jobit,
-  tripguide,
+  pixelBlend,
+  portfolio,
   conestoga,
   bits,
   c1,
@@ -307,67 +306,90 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "PixelBlend Studio",
+    description: [
+      "Image manipulation with Cloudinary AI.",
+      "Authentication with Clerk webhooks.",
+      "Payment support with Stripe.",
+      "Database management with MongoDB.",
+      "Styled UI components with Shadcn."
+    ],
     tags: [
       {
-        name: "react",
+        name: "Cloudinary AI",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Stripe",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Clerk",
         color: "pink-text-gradient",
       },
+      {
+        name: "Shadcn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pixelBlend,
+    source_code_link: "https://github.com/akash-verma-au16/PixelBlend-Studio",
+    deployed_link: "https://pixel-blend-studio.vercel.app/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "3D Portfolio",
+    description: [
+      "3D rendered DOM objects with ThreeJS.",
+      "Fluid animations with Framer-Motion.",
+      "Email support with EmailJS.",
+      "GitHub CI/CD with Gihub Actions.",
+      "Styled UI components with Tailwind."
+    ],
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ThreeJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "EmailJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Framer-Motion",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Vite",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/akash-verma-au16/3D_Portfolio",
+    deployed_link: "https://akash-verma-au16.github.io/3D_Portfolio/",
   },
 ];
 
