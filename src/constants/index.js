@@ -102,21 +102,21 @@ const certificates = [
 ];
 
 const education = [
+  // {
+  //   logo: conestoga,
+  //   college: "Conestoga College",
+  //   degree: "Post Graduate Certificate",
+  //   major: "Information Technology Network Security",
+  //   duration: "Jan 2024 - Aug 2024",
+  //   location: "Waterloo, Ontario",
+  //   technologies: [],
+  // },  
   {
     logo: conestoga,
     college: "Conestoga College",
     degree: "Post Graduate Certificate",
-    major: "Information Technology Network Security",
-    duration: "Jan 2024 - Aug 2024",
-    location: "Waterloo, Ontario",
-    technologies: [],
-  },  
-  {
-    logo: conestoga,
-    college: "Conestoga College",
-    degree: "Post Graduate Certificate",
-    major: "Virtualization and Cloud Computing",
-    duration: "Jan 2023 - Aug 2023",
+    major: "Cloud Computing and Network Security",
+    duration: "Jan 2023 - Aug 2024",
     location: "Waterloo, Ontario",
     technologies: [],
   },  
