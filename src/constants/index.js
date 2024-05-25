@@ -234,7 +234,7 @@ const experiences = [
     company_link: "https://www.linkedin.com/company/peakmind-in/",
     icon: peakmind,
     iconBg: "#E6DEDD",
-    date: "August 2019 - January 2022",
+    date: "August 2021 - January 2022",
     stack: [reactjs, redux, aws, docker, typescript, figma, postgres, ec2, lambda, api, cloud, cognito],
     points: [
       "Spearheaded the creation of APIs in a Serverless backend with AWS Lambda and API Gateway, improving improved agility and cost-efficiency for the APIs.",
