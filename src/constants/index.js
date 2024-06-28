@@ -244,34 +244,34 @@ const experiences = [
       "Streamlined development processes with the implementation of Scrum and Agile methodologies, aligning development cycles with business goals.",
     ],
   },
-  // {
-  //   title: "Full Stack Developer (Intern)",
-  //   company_name: "AttainU",
-  //   company_link: "https://www.linkedin.com/company/attainu/",
-  //   icon: attainu,
-  //   iconBg: "#383E56",
-  //   date: "November 2020 - August 2021",
-  //   stack: [html, css, reactjs, nodejs, mongodb, git],
-  //   points: [
-  //     "Developed user-friendly web forms with validation and error handling.",
-  //     "Designed RESTful APIs for seamless integration between frontend components and backend services of web applications.",
-  //     "Developed reusable code and libraries for future use, improving efficiency and reducing time spent on repetitive tasks.",
-  //     "Performed unit testing of web applications and troubleshot issues.",
-  //   ],
-  // },
-  // {
-  //   title: "Junior Engineer",
-  //   company_name: "Maersk Line",
-  //   company_link: "https://www.linkedin.com/company/maersk-line-limited/",
-  //   icon: maersk,
-  //   iconBg: "#E6DEDD",
-  //   date: "March 2019 - August 2020",
-  //   stack: [],
-  //   points: [
-  //     "Collaborated within a team of engineers for Engine Room Monitoring and Watchkeeping, ensuring seamless operations.",
-  //     "Assisted in the installation of new marine engineering systems, improving overall ship functionality.",
-  //   ],
-  // },
+  {
+    title: "Full Stack Developer (Intern)",
+    company_name: "AttainU",
+    company_link: "https://www.linkedin.com/company/attainu/",
+    icon: attainu,
+    iconBg: "#383E56",
+    date: "November 2020 - August 2021",
+    stack: [html, css, reactjs, nodejs, mongodb, git],
+    points: [
+      "Developed user-friendly web forms with validation and error handling.",
+      "Designed RESTful APIs for seamless integration between frontend components and backend services of web applications.",
+      "Developed reusable code and libraries for future use, improving efficiency and reducing time spent on repetitive tasks.",
+      "Performed unit testing of web applications and troubleshot issues.",
+    ],
+  },
+  {
+    title: "Junior Engineer",
+    company_name: "Maersk Line",
+    company_link: "https://www.linkedin.com/company/maersk-line-limited/",
+    icon: maersk,
+    iconBg: "#E6DEDD",
+    date: "March 2019 - August 2020",
+    stack: [],
+    points: [
+      "Collaborated within a team of engineers for Engine Room Monitoring and Watchkeeping, ensuring seamless operations.",
+      "Assisted in the installation of new marine engineering systems, improving overall ship functionality.",
+    ],
+  },
 ];
 
 const testimonials = [
