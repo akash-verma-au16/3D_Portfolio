@@ -34,12 +34,8 @@ import api from "./tech/api.png";
 import amplify from "./tech/amplify.png";
 import cognito from "./tech/cognito.png";
 
-
-import attainu from "./company/attainu.png";
-import careerninja from "./company/careerninja.png";
-import peakmind from "./company/peakmind.png";
-import maersk from "./company/maersk.png";
-import learntube from "./company/learntube.png";
+import intuit from "./company/intuit.png";
+import nityo from "./company/nityo.png";
 
 import conestoga from "./education/conestoga.jpeg";
 import bits from "./education/bits.jpeg";
@@ -83,11 +79,8 @@ export {
   api,
   amplify,
   cognito,
-  attainu,
-  careerninja,
-  peakmind,
-  maersk,
-  learntube,
+  intuit,
+  nityo,
   pixelBlend,
   portfolio,
   profile,

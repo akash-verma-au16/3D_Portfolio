@@ -25,11 +25,8 @@ import {
   git,
   figma,
   docker,
-  attainu,
-  careerninja,
-  peakmind,
-  maersk,
-  learntube,
+  intuit,
+  nityo,
   pixelBlend,
   portfolio,
   conestoga,
@@ -63,10 +60,6 @@ export const navLinks = [
   {
     id: "certificates",
     title: "Certificates",
-  },
-  {
-    id: "testimonials",
-    title: "Testimonials",
   },
   {
     id: "contact",
@@ -211,97 +204,35 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "CareerNinja",
-    company_link: "https://www.linkedin.com/company/careerninja/",
-    icon: careerninja,
+    title: "Software Developer",
+    company_name: "Intuit",
+    icon: intuit,
     iconBg: "#383E56",
-    date: "January 2022 - December 2022",
-    playstore:"https://play.google.com/store/apps/details?id=com.learntube&hl=en_US",
-    app: learntube,
+    date: "December 2022 - Present",
     stack: [javascript, typescript, reactjs, redux, aws, nodejs, tailwind, ec2, s3, dynamodb, amplify],
     points: [
-      "Spearheaded development of Android Native app using React Native, creating a seamless and enriching learning experience for users (100K+ downloads on Play Store).",
-      "Developed multiple features for the comprehensive ed-tech platform using MERN stack, resulting in increased user engagement and reduced user churn.",
-      "Collaborated with cross-functional teams to design, develop, and deploy features, resulting in increased user adoption and satisfaction.",
-      "Optimized platform performance and managed security compliance, ensuring adherence to industry standards and regulations.",
-      "Integrated third-party APIs to enhance website functionality and provide additional services to users.",
+      "Assisted in the development of web applications using JavaScript, HTML, CSS, and Vue JS, contributing to multiple successful project launches.",
+      "Participated in Agile ceremonies and collaborated with product owners to refine user stories and acceptance criteria.",
+      "Managed version control using Git and GitHub, ensuring code integrity and facilitating collaborative development.",
+      "Developed database solutions using MongoDB and MySQL, optimizing data retrieval processes and enhancing application performance.",
+      "Engaged in troubleshooting and debugging applications, improving overall system reliability.",
     ],
   },
   {
-    title: "Full Stack Engineer",
-    company_name: "Peakmind",
-    company_link: "https://www.linkedin.com/company/peakmind-in/",
-    icon: peakmind,
+    title: "Junior Software Developer",
+    company_name: "Nityo Infotech",
+    icon: nityo,
     iconBg: "#E6DEDD",
-    date: "August 2021 - January 2022",
+    date: "October 2019 - November 2022",
     stack: [reactjs, redux, aws, docker, typescript, figma, postgres, ec2, lambda, api, cloud, cognito],
     points: [
-      "Spearheaded the creation of APIs in a Serverless backend with AWS Lambda and API Gateway, improving improved agility and cost-efficiency for the APIs.",
-      "Implemented secure authentication and authorization mechanisms with AWS Cognito and IAM, ensuring compliance with industry standards and regulations.",
-      "Optimized database queries to improve overall system performance with AWS RDS and S3, reducing latency in data access.",
-      "Developed reusable code and libraries for future use, improving efficiency and reducing time spent on repetitive tasks.",
-      "Streamlined development processes with the implementation of Scrum and Agile methodologies, aligning development cycles with business goals.",
+      "Developed and maintained responsive web applications using React JS and Next JS, enhancing user experience and performance.",
+      "Collaborated with cross-functional teams to implement RESTful APIs and microservices architecture, improving system scalability.",
+      "Utilized AWS services such as EC2 and S3 for deploying applications and managing cloud storage, resulting in a 30% reduction in operational costs.",
+      "Implemented CI/CD pipelines using Azure DevOps, streamlining the deployment process and reducing release times by 40%.",
+      "Conducted unit testing and integration testing using Jest and Cypress, ensuring high-quality deliverables.",
     ],
-  },
-  {
-    title: "Full Stack Developer (Intern)",
-    company_name: "AttainU",
-    company_link: "https://www.linkedin.com/company/attainu/",
-    icon: attainu,
-    iconBg: "#383E56",
-    date: "November 2020 - August 2021",
-    stack: [html, css, reactjs, nodejs, mongodb, git],
-    points: [
-      "Developed user-friendly web forms with validation and error handling.",
-      "Designed RESTful APIs for seamless integration between frontend components and backend services of web applications.",
-      "Developed reusable code and libraries for future use, improving efficiency and reducing time spent on repetitive tasks.",
-      "Performed unit testing of web applications and troubleshot issues.",
-    ],
-  },
-  {
-    title: "Junior Engineer",
-    company_name: "Maersk Line",
-    company_link: "https://www.linkedin.com/company/maersk-line-limited/",
-    icon: maersk,
-    iconBg: "#E6DEDD",
-    date: "March 2019 - August 2020",
-    stack: [],
-    points: [
-      "Collaborated within a team of engineers for Engine Room Monitoring and Watchkeeping, ensuring seamless operations.",
-      "Assisted in the installation of new marine engineering systems, improving overall ship functionality.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "Akash possesses both expertise and dedication and his excellent problem-solving skills make him an invaluable asset to any team.",
-    name: "Sabrina Gujral",
-    designation: "SDE II",
-    company: "Apptio Cloudability",
-    linkedIn: "https://www.linkedin.com/in/sabrina2616/",
-    image: "https://media.licdn.com/dms/image/D5603AQG901hO2v8PhQ/profile-displayphoto-shrink_400_400/0/1701159627222?e=1717632000&v=beta&t=UpJSjeMrWr67x1bUmKNmJBljjWcxe_mCoy5rrW_aR0I",
-  },
-  {
-    testimonial:
-      "Akash demonstrated exceptional expertise and a remarkable ability to adapt to challenges, makes invaluable contributions to the team.",
-    name: "Parth Sharma",
-    designation: "Co-Founder",
-    company: "Peakmind",
-    linkedIn: "https://www.linkedin.com/in/parth-s-a27ba223/",
-    image: "https://media.licdn.com/dms/image/C5603AQHmynV--O1kBw/profile-displayphoto-shrink_400_400/0/1643379845931?e=1717632000&v=beta&t=84r7J7m5_IBvL4RK5D0v8rPrCXB1X5BXwawVGXCiDxk",
-  },
-  {
-    testimonial:
-      "Working alongside Akash has been a blast. His unwavering dedication and exceptional skillset continuously inspired and motivated me.",
-    name: "Saqib Saud",
-    designation: "Software Engineer",
-    company: "CareerNinja",
-    linkedIn: "https://www.linkedin.com/in/saqib-saud/",
-    image: "https://media.licdn.com/dms/image/C5103AQFXqndre3GYbQ/profile-displayphoto-shrink_400_400/0/1552453347209?e=1717632000&v=beta&t=Sf9LwrZGuGNDv5PcXz9FKPUkKK1CEbh7zcR42PXKKBo",
-  },
+  }
 ];
 
 const projects = [
@@ -393,4 +324,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, education, certificates, experiences, testimonials, projects };
+export { services, technologies, education, certificates, experiences, projects };
